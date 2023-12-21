@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS */
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: auto;
+    width: 1000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.home1 {
+    height: 550px;
+}
+
+.text {
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(126, 126, 126);
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.logo {
+    margin: auto;
+    padding-left: 350px;
+    width: 300px;
+}
+
+.profile {
+    width: 100px;
+    height: 35px;
+    background-color: aliceblue;
+    text-align: center;
+    color: rgb(126, 126, 126);
+    padding-top: 15px;
+    margin-left: 350px;
+    margin-top: 70px;
+}
+
+.treat {
+    width: 150px;
+    height: 35px;
+    background-color: aliceblue;
+    text-align: center;
+    color: rgb(126, 126, 126);
+    padding-top: 15px;
+    position: relative;
+    top: -50px;
+    left: 500px;
+}
+
+.head{
+    height: 50px;
+    position: fixed;
+    width: 1000px;
+	z-index: 99;
+    transform: none;
+    margin-top: 0;
+    margin: auto;
+    top: 0;
+    background-color: rgb(246, 248, 250);
+    border-bottom: 1px solid black;
+}
+/* .hi1, .hi2, .hi3, .hi4, .fi1, .fi2, .fi3, .fi4 { */
+img {
+    width: 1000px;
+}
+ 
+/* .fi5, .fi6, .fi7, .fi8, .fi9, .fi10 {
+    width: 40px;
+} */
+
+.hi1 {
+    margin-top: 50px;
+}
+
+.body2 {
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+}
+
+.home {
+    width: 40px;
+    padding-left: 950px;
+    padding-top: 5px;
+}
+
+.satu, .dua, .tiga, .empat {
+    position: absolute;
+    padding-top: 15px;
+    font-size: 20px;
+    width: 235px;
+    height: 36px;
+    border-right: 1px solid black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(126, 126, 126);
+}
+.dua {
+    margin-left: 230px;
+}
+
+.tiga {
+    margin-left: 470px;
+}
+
+.empat {
+    margin-left: 705px;
+}
+.bo1 {
+    padding-top: 50px;
+}
+.satu:hover, .dua:hover, .tiga:hover, .empat:hover {
+    color: black;
+}
