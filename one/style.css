@@ -58,19 +58,21 @@ html {
 }
 body {
     margin: auto;
-    width: 1000px;
+    width: 360px;
+    height: 640px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
 }
 
 .home1 {
-    height: 550px;
+    padding-top: 100px;
+    height: 400px;
 }
 
 .text {
     margin: auto;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(126, 126, 126);
     padding-top: 80px;
     padding-bottom: 50px;
@@ -78,37 +80,37 @@ body {
 
 .logo {
     margin: auto;
-    padding-left: 350px;
-    width: 300px;
+    padding-left: 105px;
+    width: 150px;
 }
 
 .profile {
-    width: 100px;
-    height: 35px;
+    width: 80px;
+    height: 30px;
     background-color: aliceblue;
     text-align: center;
     color: rgb(126, 126, 126);
     padding-top: 15px;
-    margin-left: 350px;
+    margin-left: 50px;
     margin-top: 70px;
 }
 
 .treat {
-    width: 150px;
-    height: 35px;
+    width: 100px;
+    height: 30px;
     background-color: aliceblue;
     text-align: center;
     color: rgb(126, 126, 126);
     padding-top: 15px;
     position: relative;
-    top: -50px;
-    left: 500px;
+    top: -45px;
+    left: 200px;
 }
 
 .head{
-    height: 50px;
+    height: 20px;
     position: fixed;
-    width: 1000px;
+    width: 360px;
 	z-index: 99;
     transform: none;
     margin-top: 0;
@@ -119,7 +121,7 @@ body {
 }
 /* .hi1, .hi2, .hi3, .hi4, .fi1, .fi2, .fi3, .fi4 { */
 img {
-    width: 1000px;
+    width: 360px;
 }
  
 /* .fi5, .fi6, .fi7, .fi8, .fi9, .fi10 {
@@ -127,45 +129,40 @@ img {
 } */
 
 .hi1 {
-    margin-top: 50px;
-}
-
-.body2 {
-    height: 1000px;
-    width: 1000px;
-    margin: auto;
+    margin-top: 20px;
 }
 
 .home {
-    width: 40px;
-    padding-left: 950px;
-    padding-top: 5px;
+    width: 15px;
+    padding-left: 333px;
+    padding-top: 2px;
 }
 
 .satu, .dua, .tiga, .empat {
     position: absolute;
-    padding-top: 15px;
-    font-size: 20px;
-    width: 235px;
-    height: 36px;
+    padding-top: 5px;
+    font-size: 10px;
+    width: 80px;
+    height: 15px;
     border-right: 1px solid black;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     color: rgb(126, 126, 126);
+    font-weight: 700;
 }
 .dua {
-    margin-left: 230px;
+    margin-left: 80px;
 }
 
 .tiga {
-    margin-left: 470px;
+    margin-left: 160px;
 }
 
 .empat {
-    margin-left: 705px;
+    margin-left: 240px;
 }
 .bo1 {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .satu:hover, .dua:hover, .tiga:hover, .empat:hover {
     color: black;
